@@ -1,4 +1,6 @@
-public final class recursiveSearchSortedArray {
+package com.thealgorithms.searches;
+
+public final class RecursiveSearchSortedArray {
   public static boolean recursiveSearch( final int[] array, final int key) {
     return recursiveSearch(array, key, 0, array.length - 1);
 }
